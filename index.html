@@ -7,29 +7,42 @@
         <title>Тверезий водій</title>
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
     </head>
     <body>
         <header>
+        	<div class="header-img">
+        		<h1>Замовити "Тверезого водія"</h1>
+        	</div>
+        	
             <div class="header-container">
                 <div class="logo">
-                    <img src="img/logosoberdriver.png" alt="logo1">
-                    <nav>
-                        <ul class="main-menu">
-                            <li>
-                                <a href="#">Переваги</a>
-                            </li>
-                            <li>
-                                <a href="#">Послуга</a>
-                            </li>
-                            <li>
-                                <a href="#">Ціни</a>
-                            </li>
-                            <li>
-                                <a href="#">Контакти</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <img src="img/logosoberdriver.png" alt="Лого">
                 </div>
+                <nav>
+                    <ul class="main-menu">
+                        <li>
+                            <a href="#services">Переваги</a>
+                        </li>
+                        <li>
+                            <a href="#info">Послуга</a>
+                        </li>
+                        <li>
+                            <a href="#prices">Ціни</a>
+                        </li>
+                        <li>
+                            <a href="#tel-client">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <main>
@@ -38,11 +51,8 @@
                     <div class="top-container-top">
                         <div>
                             <p>
-                                Закажіть 
-                                <label for="tel-client">
-                                    <u>зворотній дзвінок</u>
-                                </label>
-                                і на протязі 15 хвилин під'їде водій
+                                Замовити <a href="#tel-client">зворотній дзвінок</a>
+                                і на протязі 15 хвилин під'їде водій!
                             </p>
                         </div>
                         <div>
@@ -82,80 +92,76 @@
                     </div>
                 </div>
             </section>
-            <section class="services">
-                <h2>Послуга</h2>
-                <div>
-                    <img src="img/service1.png" alt="Поліція">
+            <section id="services">
+            	<h2>Переваги</h2>
+            	<div class="services-card">
+            		 <div>
+                    <img src="img/police.png" alt="Поліція">
                     <p>Дотримання всіх ПДР</p>
                 </div>
                 <div>
-                    <img src="img/service2.png" alt="24години">
+                    <img src="img/24hour.png" alt="24години">
                     <p>24 години в добу і в любу погоду</p>
                 </div>
                 <div>
-                    <img src="img/service3.png" alt="Досвідчений-шофер">
+                    <img src="img/driver.png" alt="Досвідчений-шофер">
                     <p>Досвідчені водії зі стажем від 10 років</p>
                 </div>
                 <div>
-                    <img src="img/service4.png" alt="Карта">
+                    <img src="img/map.png" alt="Карта">
                     <p>Відмінні знання Львова</p>
                 </div>
-                <div>
-                    <img src="img/service5.png" alt="Автомобіль">
-                    <p>Бережне поводження з вашим автомобілем</p>
-                </div>
+            	</div>
+               
             </section>
-            <section class="prices">
-                <div>
-                    <h2>В межах міста</h2>
-                    <p>
-                        Подача від 15 хвилин
-в межах першої години
-750 грн.<br>
-                        <br>Кожна наступна година
-300 грн. / Год або
-25 грн. / 10 хв.
-                    </p>
-                </div>
+            <section id="prices">
+                
                 <div>
                     <h2>За містом</h2>
                     <p>
                         Подача від 15 хвилин
-в межах першої години
-750 грн. + 25 грн. / 1 км.
-від МКАД до адреси<br>
+                        в межах першої години
+                        750 грн. + 25 грн. / 1 км.
+                        від МКАД до адреси<br>
                         <br>Кожна наступна година
-300 грн. / Год або
-50 грн. / 10 хв.
+                            300 грн. / Год або
+                            50 грн. / 10 хв.
+                    </p>
+                </div>
+                <div>
+                    <h2>В межах міста</h2>
+                    <p>
+                        Подача від 15 хвилин
+                        в межах першої години
+                        750 грн.<br>
+                        <br>Кожна наступна година
+                            300 грн. / Год або
+                            25 грн. / 10 хв.
                     </p>
                 </div>
                 <div>
                     <h2>В межах області</h2>
                     <p>
                         Подача від 25 хвилин
-в межах першої години
-750 грн. + 25 грн. / 1 км.
-від адреси до МКАД<br>
+                        в межах першої години
+                        750 грн. + 25 грн. / 1 км.
+                        від адреси до МКАД<br>
                         <br>Кожна наступна година
-300 грн. / Год або
-50 грн. / 10 хв.
+                            300 грн. / Год або
+                            50 грн. / 10 хв.
                     </p>
                 </div>
             </section>
-            <section class="info">
+            <section id="info">
                 <div>
                     <h2>Комфорт і практичність в будь-яких ситуаціях</h2>
                 </div>
                 <div>
                     <p>
-                        Трапляється, так, що ви опинились на заході і вжили алкогольні напої. А так як прибули на власному автомобілі, сідати за кермо вже не варіант. Можна замовити таксі, але в такому випадку, вранці доведеться повертатися за машиною, а це зайва трата часу і грошей. Можна ризикнувши своїм життям і життям інших учасників дорожнього руху сісти за кермо в такому стані, хоча це і є неприпустимим. Але чи варто такий ризик зекономленого часу і грошей? Що ж робити в такій ситуації, подумаєте ви? Відповідь проста-замовлення послуги <b>"тверезий водій"</b>
-                        в нашій компанії.
-Не потрібно ризикувати своїм <b>життям</b>
-                        або <b>водійським посвідченням</b>
-                        . Наші професійні водії візьмуть турботу за потребуюче авто власника на себе. Зателефонуйте нам за телефонами <b>+8 (033) 115 - 95 - 95; +8 (032) 117 - 95 - 95</b>
-                        або по БЕЗПЛАТНІЙ лінії по всій Україні <b>+8 (800) 301 - 80 - 88</b>
-                        , назвіть адресу вашого місця розташування і потрібного часу прибуття водія. Так само Ви можете замовити водія без дзвінка диспетчеру, скачавши наш додаток. При необхідності, водій нашої компанії, під'їде в указане місце протягом двадцяти хвилин після виклику.
-Наш шофер сяде за кермо вашого автомобіля і відвезе вас в заданому напрямку.
+                        Наші <b>професійні</b> водії візьмуть турботу за ваше <b>авто</b> на себе. Зателефонуйте нам <b>+8 (033) 115 - 95 - 95; +8 (032) 117 - 95 - 95</b>
+                        або по <b>безлімітній</b> лінії по всій Україні <b>8 (800) 301 - 80 - 88</b>
+                        , назвіть адресу <b>вашого</b> місця розташування і потрібного <b>часу</b> прибуття водія. Так само <b>Ви</b> можете замовити <b>водія</b> без дзвінка диспетчеру, скачавши наш <b>додаток</b>. При необхідності, водій нашої <b>компанії</b>, під'їде в указане місце протягом <b>15</b> хвилин після виклику.
+                        <b>Наш</b> шофер сяде за кермо вашого автомобіля і <b>відвезе</b> вас в заданому напрямку.
                     </p>
                 </div>
             </section>
@@ -168,27 +174,19 @@
                     </div>
                     <div>
                         <p>
-                            зателефонуйте <b>+8 (495) 123 - 45 - 67</b>
-                            або замовте 
-                            <label for="tel-client">
-                                <u>зворотній дзвінок</u>
-                            </label>
-                            і протягом 15 хвилин під'їде водій
-                        </p>
-                    </div>
-                </div>
-                <form method="POST" action="https://formspree.io/dumavb777@gmail.com">
-                    <fieldset>
-                        <input type="text" name="name-client" placeholder="Ваше Ім'я">
-                        <input type="tel" name="telefon-client" id="tel-client" pattern="[0-9]{10}" title="0662252365" placeholder="Ваш номер телефону" required>
-                        <input type="submit" value="ЗАМОВИТИ">
-                    </fieldset>
-                </form>
-            </section>
-            <br>
-            <br>
-            <hr>
-            <p>Made by dumavb</p>
-        </footer>
-    </body>
+                            Зателефонуйте <b>+8 (495) 123 - 45 - 67</b>
+                            або замовте <a href="#tel-client">зворотній дзвінок</a> і протягом 15 хвилин під'їде водій!</p></div>
+			</div>			
+				<form method="POST" action="https://formspree.io/dumavb777@gmail.com">
+                <fieldset>
+                    <input type="text" name="name-client" placeholder="Ваше Ім'я">                  
+                  <input type="tel" name="telefon-client" id="tel-client" pattern="[0-9]{10}" title="0662252365" placeholder="Ваш номер телефону" required>   
+                    <input type="submit" value="ЗАМОВИТИ">
+                </fieldset>
+            </form>
+		</section>
+        <hr>
+        <p>Made by dumavb</p>
+	</footer>
+</body>
 </html>
