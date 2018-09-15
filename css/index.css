@@ -166,6 +166,11 @@ p {
     width: 100%;
 }
 
+ #prices h2{
+    	min-height: 105px;
+    	margin: 0;
+}
+
 #prices div div a {
     color: #ffffff;
 }
@@ -324,6 +329,11 @@ footer p {
 
     #prices div div {
         border-radius: 8px;
+    }
+    
+    #prices h2{
+    	min-height: 35px;
+    	margin: 20px 0;
     }
 
     .contacts {
